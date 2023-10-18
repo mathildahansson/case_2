@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Evenemang</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
 </head>
 
@@ -32,6 +35,93 @@
         <a href="gallery.html" class="btn-header-link"><button type="button" id="btn-header-button">Lorem, ipsum
                 dolor.</button></a>
     </header>
+
+    <!-- EVENEMANG OCH FORMULÄR -->
+    <h2>Lorem, ipsum dolor.</h2>
+
+
+    <div class="left">
+        <h3>Lorem, ipsum dolor.</h3>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam repellat facilis quis nisi quos recusandae
+            odio
+            ipsum placeat atque perspiciatis, voluptate modi reprehenderit, architecto asperiores accusantium.
+            Repellendus
+            quasi adipisci sed.
+        </p>
+    </div>
+
+
+    <div class="right">
+        <!-- FORMULÄR -->
+
+        <h3>Mathilda 30 år!</h3>
+        <div class="form">
+            <form action="#" method="get">
+                <h3>RSVP</h3>
+
+
+                <div class="form-row">
+                    <!-- FÖRNAMN -->
+                    <label for="firstname">Förnamn:</label>
+                    <input type="text" name="firstname" id="firstname" required> *
+                </div>
+
+                <div class="form-row">
+                    <!-- EFTERNAMN -->
+                    <label for="lastname">Efternamn:</label>
+                    <input type="text" name="lastname" id="lastname" required> *
+                </div>
+
+                <div class="form-row">
+                    <!-- E-POSTADRESS -->
+                    <label for="email">E-post:</label>
+                    <input type="email" name="email" id="email" required> *
+                </div>
+
+                <div class="form-row">
+                    <!-- CHECKBOX (RADIO) -->
+                    <input type="radio" name="yes" id="yes">
+                    <label for="radio">Ja</label>
+
+                    <input type="radio" name="no" id="no">
+                    <label for="radio">Nej</label>
+                </div>
+
+                <div class="form-row">
+                    <!-- TEXTRUTA -->
+                    <label for="textarea">Övrigt:</label>
+                    <textarea name="letter" id="letter" cols="30" rows="10"></textarea>
+                </div>
+
+                <div class="form-row">
+                    <!-- URL INPUT -->
+                    <label for="url">Länka din festlåt med URL:</label>
+                    <input type="url" name="url" id="url">
+                </div>
+
+                <div class="form-row">
+                    <!-- FIL -->
+                    <label for="file">Skicka en födelsedagshälsning!</label>
+                    <input type="file" name="file" id="file">
+                </div>
+
+                <div class="form-row">
+                    <!-- CHECKBOX -->
+                    <label for="checkbox">Checkbox</label>
+                    <input type="checkbox" name="checkbox" id="checkbox">
+                </div>
+
+                <div class="form-row">
+                    <!-- SKICKA-KNAPP -->
+                    <input type="submit" value="Skicka">
+
+                    <!-- NOLLSTÄLL KNAPP -->
+                    <input type="reset" value="Börja om">
+                </div>
+            </form>
+        </div>
+    </div>
 
     <!-- FOOTER -->
     <footer>

@@ -1,0 +1,186 @@
+
+
+/* FYRA FLAGGOR TILL FLAGS.HTML */
+
+.flaggor {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+/* FRANSKA FLAGGAN */
+
+.france {
+    display: flex;
+    /* grid-template-columns: 3fr; */
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.blue {
+    background-color: #0055A4;
+    width: 33.3%;
+}
+
+.white {
+    background-color: #FFFFFF;
+    width: 33.3%;
+}
+
+.red {
+    background-color: #EF4135;
+    width: 33.3%;
+}
+
+/* SVENSKA FLAGGAN */
+
+.sweden {
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.top {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 3;
+}
+
+.mid {
+    display: flex;
+    background-color: #FECC00;
+    width: 100%;
+}
+
+.bottom {
+    display: flex;
+}
+
+.blue-short {
+    background-color: #006AA7;
+    width: 80px;
+    height: 80px;
+}
+
+.yellow-short {
+    background-color: #FECC00;
+    width: 40px;
+}
+
+.blue-long {
+    background-color: #006AA7;
+    width: 180px;
+    height: 80px;
+}
+
+.yellow-long {
+    background-color: #FECC00;
+    width: 100%;
+    height: 40px;
+}
+
+/* NORSKA FLAGGAN */
+
+.norway {
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.norway-top {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 5;
+}
+
+.red-short {
+    background-color: #BA0C2F;
+    width: 80px;
+    height: 80px;
+}
+
+.white-top-and-bottom {
+    background-color: #FFFFFF;
+    width: 10px;
+    height: 40px;
+}
+
+.blue-top-and-bottom {
+    background-color: #00205B;
+    width: 20px;
+    height: 80px;
+}
+
+.red-long {
+    background-color: #BA0C2F;
+    width: 180px;
+    height: 80px;
+}
+
+.norway-upper-mid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-rows: 3; */
+}
+
+.mid-short-white {
+    background-color: #FFFFFF;
+    width: 90px;
+    height: 10px;
+}
+
+.mid-short-blue {
+    background-color: #00205B;
+    height: 10px;
+    width: 20px;
+}
+
+.mid-long-white {
+    background-color: #FFFFFF;
+    width: 180px;
+    height: 10px;
+}
+
+.norway-bottom-mid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 3;
+}
+
+.norway-bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 5;
+}
+
+.norway-mid {
+    background-color: #00205B;
+    width: 100%;
+    height: 20px;
+}
+
+/* TYSKLANDS FLAGGA */
+
+.germany {
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr;
+    /* fr betyder "fraction" */
+    grid-template-rows: 3;
+}
+
+.germany-black {
+    background-color: #000000;
+}
+
+.germany-red {
+    background-color: #FF0000
+}
+
+.germany-gold {
+    background-color: #FFCC00;
+}
