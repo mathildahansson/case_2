@@ -81,6 +81,8 @@ h2#field-two {
 .header-h1 {
     text-shadow: 0.2rem 0.2rem var(--contrast-color);
     margin: 5rem 0 0 0;
+    text-transform: uppercase;
+    font-size: 5rem;
 }
 
 p {
