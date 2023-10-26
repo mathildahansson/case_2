@@ -1,10 +1,9 @@
 :root {
-    --primary-color: #313b46;
-    --secondary-color: #2E4052;
+    --primary-color: #22333B;
+    --secondary-color: #5E503F;
     --base-color: #1c1c1c;
-    --dark: #000000;
-    --light: #ffffff;
-    --contrast-color: #c8be9f;
+    --light: #F2F4F3;
+    --contrast-color: #A9927D;
 }
 
 body {
@@ -14,17 +13,20 @@ body {
 /* NAVIGATION */
 section.top-nav {
     display: flex;
-    background-color: var(--primary-color);
+    background-color: var(--base-color);
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem 1rem 2rem;
 }
 
-nav#top {
-}
+nav#top {}
 
 .hamburger-menu {
-padding: 0;
+    padding: 0;
+}
+
+.menu-icon {
+    filter: invert(100%) sepia(72%) saturate(202%) hue-rotate(88deg) brightness(109%) contrast(91%);
 }
 
 nav#top ul {
@@ -74,6 +76,16 @@ nav#top ul li:hover .hidden-menu {
     border-bottom: 2px solid var(--primary-color);
 }
 
+#close-menu {
+    font-family: 'abril fatface';
+    font-size: 16px;
+    margin-top: 2rem;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    border: 2px solid var(--primary-color);
+    text-transform: uppercase;
+    color: var(--primary-color);
+}
+
 img#logo {
     width: 3.5rem;
     border: 0px solid var(--light);
@@ -85,7 +97,7 @@ img#logo {
 /* HEADER */
 
 header {
-    background-color: var(--base-color);
+    background-color: var(--primary-color);
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -103,20 +115,20 @@ header p {
 }
 
 header button {
-    background-color: transparent;
+    background-color: var(--light);
     padding: 1rem 2rem 1rem 2rem;
     margin: 1rem 1rem 2rem 1rem;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'abril fatface';
     font-size: 16px;
-    color: var(--light);
+    color: var(--primary-color);
     text-transform: uppercase;
     border: 2px solid var(--light);
-    border-radius: 0.4rem;
 }
 
 header button:hover {
     transition: ease-in-out 0.7s;
     background-color: var(--primary-color);
+    color: var(--light);
 }
 
 
@@ -131,12 +143,13 @@ h1 {
 h2 {
     margin: 0;
     font-family: 'abril fatface';
-    color: var(--base-color);
+    color: var(--primary-color);
 }
 
 h3 {
     margin: 0;
     font-family: 'abril fatface';
+    color: var(--base-color);
 }
 
 p {
@@ -181,22 +194,37 @@ p {
 
 details>summary {
     background-color: var(--light);
-    border: 3px solid var(--secondary-color);
+    border: 2px solid var(--primary-color);
     padding: 0.7rem;
     margin: 0.5rem 0rem 0.5rem 0rem;
     font-family: 'abril fatface';
     font-size: large;
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
-details>p {
-    background-color: var(--light);
-    border: 3px solid var(--secondary-color);
-    padding: 0.7rem;
+.box-info {
+    border: 2px solid var(--primary-color);
+    padding: 1rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: large;
-    color: var(--base-color);
+    color: var(--base-color);   
 }
+
+.box-info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.box-info li {
+    padding: 0.1rem 0rem 0.1rem 0rem;
+}
+
+.box-info p {
+    font-size: 16px;
+}
+
+
 
 table {
     border: 1px dotted blue;
@@ -211,11 +239,12 @@ footer {
 footer>h3 {
     color: var(--light);
     font-family: 'abril fatface';
-    font-size: large;
+    font-size: 18px;
 }
 
 footer p {
     color: var(--light);
+    font-size: 16px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 300;
     font-size: large;

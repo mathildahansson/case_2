@@ -19,9 +19,11 @@
 
         <nav id="top">
             <ul class="hamburger-menu">
-                <li><img src="assets/svg/134216_menu_lines_hamburger_icon.svg" alt="menu-icon">
+                <li><img src="assets/svg/134216_menu_lines_hamburger_icon.svg" alt="menu-icon" class="menu-icon">
                     <ul class="hidden-menu">
-                        <li><h3>Meny</h3></li>
+                        <li>
+                            <h3>Meny</h3>
+                        </li>
                         <li><a href="/index.html">Startsida</a></li>
                         <hr>
                         <li><a href="/vastervik.html">Västervik</a></li>
@@ -31,8 +33,9 @@
                         <li><a href="/gallery.html">Galleri</a></li>
                         <hr>
                         <li><a href="/flags.html">Flaggor</a></li>
-                        <br><br>
-                        <li><a href="index.html">X</a></li>
+
+                        <a href="index.html"><button type="button" id="close-menu">Stäng meny</button></a>
+
                     </ul>
                 </li>
             </ul>
@@ -56,34 +59,77 @@
     <div class="content">
 
         <div class="container-box">
-            <h2>Lorem, ipsum dolor.</h2>
-            <img src="assets/images/me-eleiko-bnw.jpg" alt="Mathilda och Eleiko" class="container-pictures">
+            <h2>Snabbfakta</h2>
+            <img src="assets/images/me-eleiko-spring.jpg" alt="Mathilda och Eleiko" class="container-pictures">
             <details>
-                <summary>Lorem, ipsum dolor.</summary>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam autem veniam illo, ipsa eaque
-                    ducimus quo numquam tenetur nemo dolorem? Sunt laudantium illum vitae accusamus necessitatibus esse
-                    labore maxime sapiente at earum aliquam consectetur rerum, animi incidunt. Similique, ut quam?</p>
+                <summary>Klicka för snabbfakta</summary>
+
+                <div class="box-info">
+                    <ul>
+                        <li>&rarr; <b>Född:</b> 6 januari 1994</li>
+                        <li>&rarr; <b>Födelseort:</b> Södertälje</li>
+                        <li>&rarr; <b>Bostadsort:</b> Västervik</li>
+                        <li>&rarr; <b>Stjärntecken:</b> Stenbock</li>
+                        <li>&rarr; <b>Favoritmat:</b> Chiabatta ala Mathilda</li>
+                    </ul>
+                    <br>
+                    <p><b>OBS!</b> Jag är dessutom relativt cool och charmig också!</p>
+                </div>
+
             </details>
         </div>
+
         <div class="container-box">
-            <h2>Lorem, ipsum dolor.</h2>
-            <img src="assets/images/me-eleiko-spring.jpg" alt="Mathilda och Eleiko bland vitsippor"
-                class="container-pictures">
+            <h2>Favoritserier</h2>
+            <img src="assets/images/sheldon-cooper.png" alt="Sheldon Cooper" class="container-pictures">
             <details>
-                <summary>Lorem, ipsum dolor.</summary>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam autem veniam illo, ipsa eaque
-                    ducimus quo numquam tenetur nemo dolorem? Sunt laudantium illum vitae accusamus necessitatibus esse
-                    labore maxime sapiente at earum aliquam consectetur rerum, animi incidunt. Similique, ut quam?</p>
+                <summary>Klicka för favoritserier</summary>
+
+                <div class="box-info">
+                    <h3>Mina topp 5 serier!</h3>
+                    <br>
+                    <p>Mina topp 5 serier utan inbördes ordning:</p>
+                    <br>
+                    <ul>
+                        <li><b>&bull; Big Bang Theory</b>
+                        <li><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, dolorum?</i></li>
+                        </li>
+                        <hr>
+                        <li><b>&bull; How I Met Your Mother</b>
+                        <li><i>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis, vero?</i>
+                        </li>
+                        <hr>
+                        </li>
+                        <li><b>&bull; Atypical</b>
+                        <li><i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, molestias.</i></li>
+                        </li>
+                        <hr>
+                        <li><b>&bull; You</b>
+                        <li><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, laboriosam.</i></li>
+                        </li>
+                        <hr>
+                        <li><b>&bull; Love on the spectrum</b>
+                        <li><i>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem, cupiditate?</i></li>
+                        </li>
+                    </ul>
+                </div>
             </details>
         </div>
+
         <div class="container-box">
-            <h2>Lorem, ipsum dolor.</h2>
-            <img src="assets/images/me-deadlifting.jpg" alt="Mathilda marklyfter" class="container-pictures">
+            <h2>Intressen</h2>
+            <img src="assets/images/eleiko-laying.jpg" alt="Eleiko liggandes porträtt" class="container-pictures">
             <details>
-                <summary>Lorem, ipsum dolor.</summary>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam autem veniam illo, ipsa eaque
-                    ducimus quo numquam tenetur nemo dolorem? Sunt laudantium illum vitae accusamus necessitatibus esse
-                    labore maxime sapiente at earum aliquam consectetur rerum, animi incidunt. Similique, ut quam?</p>
+                <summary>Klicka för intressen</summary>
+                <div class="box-info">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam autem veniam illo, ipsa
+                        eaque
+                        ducimus quo numquam tenetur nemo dolorem? Sunt laudantium illum vitae accusamus necessitatibus
+                        esse
+                        labore maxime sapiente at earum aliquam consectetur rerum, animi incidunt. Similique, ut quam?
+                    </p>
+                </div>
+
             </details>
         </div>
 
@@ -91,7 +137,7 @@
 
     <!-- FOOTER -->
     <footer>
-        <h3>Copyright &copy; - Mathilda Hansson 2023</h3>
+        <h3>&copy; Copyright - Mathilda Hansson</h3>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, corrupti.</p>
     </footer>
 
