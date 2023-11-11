@@ -57,83 +57,92 @@
         <a href="./gallery"><button type="button">Galleri</button></a>
     </header>
 
-    <!-- CONTENT -->
-    <div class="content">
+    <!-- CONTENT -->    
+    <div class="form-content">
 
-        <div class="container-one"></div>
-        <div class="container-two"></div>
-        <div class="container-three"></div>
+        <!-- FORMULÄR -->
+        <div class="form">
+            <h2>Mathilda 30 år!</h2>
+            <form action="#" method="get">
+                <h3>RSVP</h3>
+
+
+                <div class="form-row">
+                    <!-- FÖRNAMN -->
+                    <label for="firstname">Förnamn:</label>
+                    <input type="text" name="firstname" id="firstname" required> *
+                </div>
+
+                <div class="form-row">
+                    <!-- EFTERNAMN -->
+                    <label for="lastname">Efternamn:</label>
+                    <input type="text" name="lastname" id="lastname" required> *
+                </div>
+
+                <div class="form-row">
+                    <!-- E-POSTADRESS -->
+                    <label for="email">E-post:</label>
+                    <input type="email" name="email" id="email" required> *
+                </div>
+
+                <div class="form-row">
+                    <!-- CHECKBOX (RADIO) -->
+                    <input type="radio" name="yes" id="yes">
+                    <label for="radio">Ja</label>
+
+                    <input type="radio" name="no" id="no">
+                    <label for="radio">Nej</label>
+                </div>
+
+                <div class="form-row">
+                    <!-- TEXTRUTA -->
+                    <label for="textarea">Övrigt:</label>
+                    <textarea name="letter" id="letter" cols="30" rows="10"></textarea>
+                </div>
+
+                <div class="form-row">
+                    <!-- URL INPUT -->
+                    <label for="url">Länka din festlåt med URL:</label>
+                    <input type="url" name="url" id="url">
+                </div>
+
+                <div class="form-row">
+                    <!-- FIL -->
+                    <label for="file">Skicka en födelsedagshälsning!</label>
+                    <input type="file" name="file" id="file">
+                </div>
+
+                <div class="form-row">
+                    <!-- CHECKBOX -->
+                    <label for="checkbox">Checkbox</label>
+                    <input type="checkbox" name="checkbox" id="checkbox">
+                </div>
+
+                <div class="form-row">
+                    <!-- SKICKA-KNAPP -->
+                    <input type="submit" value="Skicka">
+
+                    <!-- NOLLSTÄLL KNAPP -->
+                    <input type="reset" value="Börja om">
+                </div>
+            </form>
+        </div>
+
+
+        <!-- FORMULÄR-BILD -->
+        <div class="form-picture">
+            ...
+        </div>
 
     </div>
 
-    <!-- FORMULÄR -->
-
-    <h3>Mathilda 30 år!</h3>
-    <div class="form">
-        <form action="#" method="get">
-            <h3>RSVP</h3>
 
 
-            <div class="form-row">
-                <!-- FÖRNAMN -->
-                <label for="firstname">Förnamn:</label>
-                <input type="text" name="firstname" id="firstname" required> *
-            </div>
 
-            <div class="form-row">
-                <!-- EFTERNAMN -->
-                <label for="lastname">Efternamn:</label>
-                <input type="text" name="lastname" id="lastname" required> *
-            </div>
 
-            <div class="form-row">
-                <!-- E-POSTADRESS -->
-                <label for="email">E-post:</label>
-                <input type="email" name="email" id="email" required> *
-            </div>
 
-            <div class="form-row">
-                <!-- CHECKBOX (RADIO) -->
-                <input type="radio" name="yes" id="yes">
-                <label for="radio">Ja</label>
 
-                <input type="radio" name="no" id="no">
-                <label for="radio">Nej</label>
-            </div>
 
-            <div class="form-row">
-                <!-- TEXTRUTA -->
-                <label for="textarea">Övrigt:</label>
-                <textarea name="letter" id="letter" cols="30" rows="10"></textarea>
-            </div>
-
-            <div class="form-row">
-                <!-- URL INPUT -->
-                <label for="url">Länka din festlåt med URL:</label>
-                <input type="url" name="url" id="url">
-            </div>
-
-            <div class="form-row">
-                <!-- FIL -->
-                <label for="file">Skicka en födelsedagshälsning!</label>
-                <input type="file" name="file" id="file">
-            </div>
-
-            <div class="form-row">
-                <!-- CHECKBOX -->
-                <label for="checkbox">Checkbox</label>
-                <input type="checkbox" name="checkbox" id="checkbox">
-            </div>
-
-            <div class="form-row">
-                <!-- SKICKA-KNAPP -->
-                <input type="submit" value="Skicka">
-
-                <!-- NOLLSTÄLL KNAPP -->
-                <input type="reset" value="Börja om">
-            </div>
-        </form>
-    </div>
 
     <!-- FOOTER -->
     <footer>
