@@ -57,97 +57,110 @@
         <a href="./gallery"><button type="button">Galleri</button></a>
     </header>
 
-    <!-- CONTENT -->    
+
+    <!-- FORMULÄR -->
     <div class="form-content">
 
-        <!-- FORMULÄR -->
-        <div class="form">
-            <h2>Mathilda 30 år!</h2>
+        <div class="formbox">
             <form action="#" method="get">
-                <h3>RSVP</h3>
 
-
-                <div class="form-row">
-                    <!-- FÖRNAMN -->
-                    <label for="firstname">Förnamn:</label>
-                    <input type="text" name="firstname" id="firstname" required> *
+                <!-- NAMN -->
+                <div class="formrows">
+                    <div class="labels">
+                        <label for="name" id="name">Namn:</label>
+                    </div>
+                    <div class="fields">
+                        <input type="text" id="name" class="inputfields" placeholder="Skriv ditt namn..." required>
+                    </div>
                 </div>
 
-                <div class="form-row">
-                    <!-- EFTERNAMN -->
-                    <label for="lastname">Efternamn:</label>
-                    <input type="text" name="lastname" id="lastname" required> *
+                <!-- E-POST -->
+                <div class="formrows">
+                    <div class="labels">
+                        <label for="email" id="email">E-post:</label>
+                    </div>
+                    <div class="fields">
+                        <input type="text" id="email" class="inputfields" placeholder="Skriv din e-postadress..."
+                            required>
+                    </div>
                 </div>
 
-                <div class="form-row">
-                    <!-- E-POSTADRESS -->
-                    <label for="email">E-post:</label>
-                    <input type="email" name="email" id="email" required> *
+                <!-- RSVP -->
+                <div class="formrows">
+                    <div class="labels">
+                        <label for="rsvp">Kommer du?</label>
+                    </div>
+                    <div class="select-field">
+                        <ul>
+                            <li class="radio"><input type="radio" name="yes" value="1" class="user-select">Jag kommer
+                            </li>
+                            <li class="radio"><input type="radio" name="no" value="2" class="user-select">Kan inte komma
+                            </li>
+                        </ul>
+                    </div>
                 </div>
 
-                <div class="form-row">
-                    <!-- CHECKBOX (RADIO) -->
-                    <input type="radio" name="yes" id="yes">
-                    <label for="radio">Ja</label>
+                <!-- KOST -->
+                <div class="formrows">
+                    <div class="labels">
+                        <label for="food">Kostpreferenser
+                        </label>
+                    </div>
+                    <div class="select-field">
+                        <ul>
+                            <li class="radio"><label for="food"><input type="checkbox" name="food" value="1"
+                                        class="user-select">Vegetariskt</label></li>
 
-                    <input type="radio" name="no" id="no">
-                    <label for="radio">Nej</label>
+                            <li class="radio"><label for="food"><input type="checkbox" name="food" value="2"
+                                        class="user-select">Veganskt</label></li>
+
+                            <li class="radio"><label for="food"><input type="checkbox" name="food" value="3"
+                                        class="user-select">Selektiv</label></li>
+
+                            <li class="radio"><label for="food"><input type="checkbox" name="food" value="4"
+                                        class="user-select">Glutenintolerant</label></li>
+
+                            <li class="radio"><label for="food"><input type="checkbox" name="food" value="5"
+                                        class="user-select">Laktosintolerant</label></li>
+                        </ul>
+                    </div>
                 </div>
 
-                <div class="form-row">
-                    <!-- TEXTRUTA -->
-                    <label for="textarea">Övrigt:</label>
-                    <textarea name="letter" id="letter" cols="30" rows="10"></textarea>
+                <!-- ÖVRIGT -->
+                <div class="formrows">
+                    <div class="labels">
+                        <label for="text-box">Övrigt</label>
+                    </div>
+                    <textarea name="text-box" id="text-box" cols="1" rows="1"
+                        placeholder="Övrig informatioen och allerigier..." style="height: 50px;"
+                        class="text-box"></textarea>
                 </div>
 
-                <div class="form-row">
-                    <!-- URL INPUT -->
-                    <label for="url">Länka din festlåt med URL:</label>
-                    <input type="url" name="url" id="url">
-                </div>
 
-                <div class="form-row">
-                    <!-- FIL -->
-                    <label for="file">Skicka en födelsedagshälsning!</label>
-                    <input type="file" name="file" id="file">
-                </div>
-
-                <div class="form-row">
-                    <!-- CHECKBOX -->
-                    <label for="checkbox">Checkbox</label>
-                    <input type="checkbox" name="checkbox" id="checkbox">
-                </div>
-
-                <div class="form-row">
+                <div class="form-buttons">
                     <!-- SKICKA-KNAPP -->
-                    <input type="submit" value="Skicka">
-
+                    <input type="submit" value="Skicka" class="button">
                     <!-- NOLLSTÄLL KNAPP -->
-                    <input type="reset" value="Börja om">
+                    <input type="reset" value="Börja om" class="button">
                 </div>
+
             </form>
         </div>
 
 
-        <!-- FORMULÄR-BILD -->
+
         <div class="form-picture">
             ...
         </div>
 
     </div>
 
-
-
-
-
-
-
-
-
     <!-- FOOTER -->
     <footer>
-        <p>Copyright &copy; - Mathilda Hansson 2023</p>
+        <h3>&copy; Mathilda Hansson - 2023</h3>
+        <p>Case 2 - Glimåkra Folkhögskola</p>
     </footer>
+
 
 </body>
 

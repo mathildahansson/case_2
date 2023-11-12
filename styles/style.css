@@ -76,6 +76,15 @@ nav#top ul li:hover .hidden-menu {
     border-bottom: 2px solid var(--primary-color);
 }
 
+#top a {
+    color: var(--base-color);
+    font-weight: 400;
+}
+
+#top a:hover {
+    color: var(--contrast-color);
+}
+
 #close-menu {
     font-family: 'abril fatface';
     font-size: 16px;
@@ -159,6 +168,17 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+/* LÄNKAR */
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+a:hover {
+    color: var(--contrast-color);
+}
+
 
 /* CONTENT AND CONTAINERS */
 
@@ -179,16 +199,72 @@ p {
 }
 
 
-.form h2 {
-    text-align: center;
-    color: var(--light);
+
+
+/* FORMULÄR */
+.form-content {
+    background-color: var(--contrast-color);
 }
 
-.form {
-    background-color: var(--primary-color);
-    padding: 3rem;
-    background-color: var(--contrast-color);
+.formbox {
+    padding: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
+.formrows {}
+
+.labels {
+    font-family: 'abril fatface';
+    font-size: large;
+    color: var(--primary-color);
+    padding: 0.5rem 0.5rem;
+}
+
+.fields {
+    padding: 0.5rem;
+}
+
+.select-field {
+    background-color: var(--light);
+    padding: 0.5rem 0.5rem;
+    border: none;
+    border-radius: 20px;
+}
+
+.inputfields {
+    padding: 0.5rem 1rem;
+    width: 90%;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.radio {
+    list-style: none;
+}
+
+.user-select {
+    background-color: var(--light);
+}
+
+.text-box {
+    width: 90%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 20px;
+    padding: 1rem;
+}
+
+.form-buttons {
+    margin-top: 1rem;
+}
+
+.button {
+    background-color: var(--primary-color);
+    padding: 0.7rem 1rem;
+    border: none;
+    border-radius: 10px;
+    color: var(--light);
+    font-family: 'abril fatface';
 }
 
 .form-picture {
@@ -204,14 +280,16 @@ p {
         flex-direction: row;
     }
 
-    .form {
-        width: 50%;    
+    .formbox {
+        width: 50%;
     }
-    
+
     .form-picture {
         width: 50%;
         height: auto;
     }
+
+
 }
 
 /* 
@@ -373,6 +451,7 @@ td {
 
 .facts h2 {
     text-align: center;
+    font-size: xx-large;
     color: var(--light);
     padding: 1rem;
 }
@@ -380,6 +459,10 @@ td {
 .facts p {
     color: var(--light);
     padding: 1rem;
+}
+
+.facts a {
+    color: var(--light);
 }
 
 @media screen and (min-width: 820px) {
@@ -443,6 +526,7 @@ td {
 
 .food-description h2 {
     padding: 1rem;
+    font-size: xx-large;
     text-align: center;
     color: var(--light);
 
@@ -453,6 +537,9 @@ td {
     padding: 1rem 1rem 1rem 1rem;
     text-align: center;
 }
+
+
+
 
 /* FOOTER */
 
@@ -476,6 +563,8 @@ footer p {
     font-size: large;
     padding-top: 1rem;
 }
+
+
 
 
 
