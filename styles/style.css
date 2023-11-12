@@ -267,11 +267,24 @@ a:hover {
     font-family: 'abril fatface';
 }
 
-.form-picture {
-    background-color: var(--secondary-color);
+.event-info {
+    background-color: var(--base-color);
     display: block;
     padding: 3rem;
+    text-align: center;
+}
 
+.event-info h2 {
+    color: var(--light);
+}
+
+.event-info p {
+    color: var(--light);
+}
+
+.img-balloons {
+    width: 100%;
+    opacity: 70%;
 }
 
 @media screen and (min-width: 820px) {
@@ -284,7 +297,7 @@ a:hover {
         width: 50%;
     }
 
-    .form-picture {
+    .event-info {
         width: 50%;
         height: auto;
     }
@@ -538,7 +551,23 @@ td {
     text-align: center;
 }
 
+/* GALLERI */
+.images {}
 
+.img-gallery {
+    width: 100%;
+}
+
+@media screen and (min-width: 820px) {
+    .images {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .img-gallery {
+        width: 33%;
+    }
+}
 
 
 /* FOOTER */
@@ -566,16 +595,13 @@ footer p {
 
 
 
-
-
-
 /* FYRA FLAGGOR TILL FLAGS.HTML */
 
-.flaggor {
+/* .flaggor {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-}
+} */
 
 
 /* FRANSKA FLAGGAN */
@@ -753,3 +779,11 @@ footer p {
 .germany-gold {
     background-color: #FFCC00;
 }
+
+/* @media screen and (min-width: 820px) {
+    .content-flags {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }    
+} */
