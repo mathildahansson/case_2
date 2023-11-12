@@ -13,9 +13,7 @@
 
 <body>
 
-
     <!-- NAVIGERING -->
-
     <section class="top-nav">
 
         <nav id="top">
@@ -52,7 +50,8 @@
         <h1>Galleri</h1>
         <p>Här i galleriet så får du ta del av lite foton, filmer och ljudklipp.
             <br>
-            Upphovskällor står kopplade till all media.
+            Bilderna är fotade av mig, videos är fakta inbäddat från Youtube, och ljudfilerna är inbäddade från
+            Wikimedia Commons.
         </p>
         <a href="./gallery"><button type="button">Galleri</button></a>
     </header>
@@ -60,32 +59,46 @@
     <!-- CONTENT -->
     <div class="media-content">
 
-
-
+        <!-- BILDER -->
         <div class="media-container-box">
             <h2>Bilder</h2>
             <hr>
-
             <div class="images">
                 <img src="assets/images/eleiko-in-grass.jpg" alt="Eleiko i gräset" class="img-gallery">
                 <img src="assets/images/eleiko-playing.jpg" alt="Eleiko leker" class="img-gallery">
                 <img src="assets/images/eleiko-running-grass.jpg" alt="Eleiko springer i gräset" class="img-gallery">
             </div>
-
         </div>
 
-
+        <!-- VIDEOS -->
         <div class="media-container-box">
             <h2>Videos</h2>
             <hr>
+            <div class="videos">
+                <iframe class="video-gallery" width="560" height="315"
+                    src="https://www.youtube.com/embed/eIKammWFzmU?si=Ff1oQRuf5_o0GGiC" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
 
+                <iframe class="video-gallery" width="560" height="315"
+                    src="https://www.youtube.com/embed/FsKjWflwd-Q?si=VAhCYF8h1LNBKXFF" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+
+                <iframe class="video-gallery" width="560" height="315"
+                    src="https://www.youtube.com/embed/xfJU-JzghAw?si=uA3wZkSQjf4sh3Rn" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
         </div>
 
-
+        <!-- LJUDFILER -->
         <div class="media-container-box">
             <h2>Ljud</h2>
             <hr>
-
             <div class="audio-container">
                 <figure>
                     <audio src="https://upload.wikimedia.org/wikipedia/commons/1/18/Lionsleeps.ogg" controls></audio>
@@ -124,15 +137,7 @@
                 </figure>
             </div>
 
-            <hr>
-
-            <h3>Alla ljudfiler är lånade från Wikimedia.</h3>
         </div>
-
-
-
-
-
     </div>
 
     <!-- FOOTER -->

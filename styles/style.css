@@ -211,7 +211,7 @@ a:hover {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.formrows {}
+/* .formrows {} */
 
 .labels {
     font-family: 'abril fatface';
@@ -552,9 +552,18 @@ td {
 }
 
 /* GALLERI */
-.images {}
+
+/* .images {} */
 
 .img-gallery {
+    width: 100%;
+}
+
+.videos {
+    
+}
+
+.video-gallery {
     width: 100%;
 }
 
@@ -565,6 +574,15 @@ td {
     }
 
     .img-gallery {
+        width: 33%;
+    }
+
+    .videos {
+    display: flex;
+    justify-content: space-between;
+    }
+    
+    .video-gallery {
         width: 33%;
     }
 }
