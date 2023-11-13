@@ -559,12 +559,28 @@ td {
     width: 100%;
 }
 
-.videos {
+/* .videos {
     
-}
+} */
 
 .video-gallery {
     width: 100%;
+}
+
+/* LOFI OCH HIFI */
+
+.scetches-content {
+    background-color: var(--primary-color);
+}
+
+.lofi {
+    background-color: var(--primary-color);
+    padding-bottom: 1rem;
+}
+
+.img-lofi-hifi {
+    width: 100%;
+    padding-bottom: 1rem;
 }
 
 @media screen and (min-width: 820px) {
@@ -578,12 +594,18 @@ td {
     }
 
     .videos {
-    display: flex;
-    justify-content: space-between;
+        display: flex;
+        justify-content: space-between;
     }
-    
+
     .video-gallery {
         width: 33%;
+    }
+
+    .img-lofi-hifi {
+        display: flexbox;
+        width: 20%;
+        padding: 1rem;
     }
 }
 
